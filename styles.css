@@ -130,6 +130,11 @@ Section .home-background .block {
   }
 }
 
+h2,
+h3 {
+  padding-top: 1rem;
+}
+
 section .video-background {
   padding: 1rem;
   width: 100%;
@@ -137,6 +142,10 @@ section .video-background {
   background-color: #000000;
   color: white;
   text-align: center;
+}
+
+section .video-background .title-padding {
+  padding-top: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -153,11 +162,6 @@ section .video-background {
     height: 100%;
     padding-top: 5rem;
   }
-}
-
-h2,
-h3 {
-  padding: 1rem;
 }
 
 section .about-background {

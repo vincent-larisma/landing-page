@@ -127,11 +127,18 @@ Section .home-background {
 		}
 	}
 }
-
+h2,
+h3 {
+	padding-top: 1rem;
+}
 // Video
 
 section .video-background {
 	@include sectionblock(50vh, $primary-color);
+
+	.title-padding {
+		padding-top: 3rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -143,10 +150,6 @@ section .video-background {
 		height: 100%;
 		padding-top: 5rem;
 	}
-}
-h2,
-h3 {
-	padding: 1rem;
 }
 
 // About us
