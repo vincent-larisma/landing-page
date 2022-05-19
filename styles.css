@@ -227,6 +227,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   background-color: white;
+  color: #000000;
   border: none;
   cursor: pointer;
   position: relative;
