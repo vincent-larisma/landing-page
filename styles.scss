@@ -20,6 +20,10 @@ $font-family-primary: "Poppins", sans-serif;
 	font-family: $font-family-primary;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 // Navigation bar
 
 .sticky {
@@ -46,7 +50,6 @@ $font-family-primary: "Poppins", sans-serif;
 	top: 0;
 	background-color: $primary-color;
 	width: 100%;
-	height: 2.5rem;
 	color: $font-color-primary;
 	padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
