@@ -1,11 +1,14 @@
 (() => {
 	const searchParams = new URLSearchParams(window.location.search);
-	const name = searchParams.get("email");
-	console.log(name);
+	const email = searchParams.get("email");
+	console.log(email);
 	const domName = document.querySelector("[data-email]");
 	console.log(domName);
 
 	if (domName) {
-		domName.textContent = "Your Email: " + email + " has been received!";
+		domName.textContent =
+			"Please check your email(" +
+			email +
+			") for further instructions on how to complete your account setup.";
 	}
 })();

@@ -26,10 +26,33 @@ body img {
   width: 10vmin;
 }
 
+body .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (minmax(3rem, auto))[3];
+      grid-template-rows: repeat(3, minmax(3rem, auto));
+  height: 100vh;
+  place-content: center;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
 body .background {
-  margin: auto;
-  width: 50%;
-  background-color: white;
-  margin-top: 15rem;
+  text-align: center;
+  color: white;
+  max-width: 19rem;
+  font-size: large;
+}
+
+body .title-container {
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+body .back-link {
+  text-align: center;
+  color: white;
+  font-size: small;
 }
 /*# sourceMappingURL=styles.css.map */

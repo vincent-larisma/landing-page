@@ -28,10 +28,31 @@ body {
 		width: 10vmin;
 	}
 
+	.grid-container {
+		display: grid;
+		grid-template-rows: repeat(3, minmax(3rem, auto));
+		height: 100vh;
+		place-content: center;
+		gap: 1rem;
+		font-family: $font-family-primary;
+	}
+
 	.background {
-		margin: auto;
-		width: 50%;
-		background-color: white;
-		margin-top: 15rem;
+		text-align: center;
+		color: $font-color-primary;
+		max-width: 19rem;
+		font-size: large;
+	}
+
+	.title-container {
+		text-align: center;
+		color: $font-color-primary;
+		font-size: larger;
+	}
+
+	.back-link {
+		text-align: center;
+		color: $font-color-primary;
+		font-size: small;
 	}
 }
