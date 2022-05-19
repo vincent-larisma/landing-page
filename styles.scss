@@ -146,9 +146,10 @@ section .video-background {
 		@include sectionblock(100vh, $primary-color);
 	}
 	.video {
-		width: 100%;
+		width: 60%;
 		height: 100%;
 		padding-top: 5rem;
+		margin: auto;
 	}
 }
 

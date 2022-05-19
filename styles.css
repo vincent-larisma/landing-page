@@ -158,9 +158,10 @@ section .video-background .title-padding {
     text-align: center;
   }
   .video {
-    width: 100%;
+    width: 60%;
     height: 100%;
     padding-top: 5rem;
+    margin: auto;
   }
 }
 
