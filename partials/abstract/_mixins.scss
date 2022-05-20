@@ -1,0 +1,44 @@
+@mixin sectionblock($height-vh, $background-color) {
+	padding: 1rem;
+	width: 100%;
+	height: $height-vh;
+	background-color: $background-color;
+	color: $font-color-primary;
+	text-align: center;
+}
+
+@mixin header($padding-top, $padding-bottom) {
+	padding-top: $padding-top;
+	padding-bottom: $padding-bottom;
+	background-color: $primary-color;
+	color: $font-color-primary;
+	width: 100%;
+}
+
+@mixin block($fontsize) {
+	text-align: center;
+	color: $font-color-primary;
+	font-size: $fontsize;
+}
+
+@mixin home {
+	display: grid;
+	width: 100%;
+	height: 100vh;
+	background-image: url(./img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: $font-color-primary;
+	text-align: center;
+	padding-top: 2rem;
+	padding-left: 0.2rem;
+	grid-template-columns: 80% 20%;
+	align-content: flex-end;
+	font-size: small;
+
+	.block {
+		width: 100%;
+		height: 8rem;
+	}
+}

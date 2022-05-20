@@ -1,0 +1,15 @@
+// Form
+.form-background {
+	@include sectionblock(100%, $primary-color);
+
+	h3 {
+		color: $font-color-primary;
+	}
+	p {
+		padding: 0 1rem 1rem 1rem;
+	}
+}
+
+input {
+	height: 2rem;
+}

@@ -1,0 +1,10 @@
+// Home
+
+Section .home-background {
+	@include home;
+}
+
+h2,
+h3 {
+	padding-top: 1rem;
+}

@@ -1,0 +1,11 @@
+// About us
+section .about-background {
+	@include sectionblock(100%, $secondary-color);
+	.split {
+		padding: 2rem 4rem;
+
+		h3 {
+			padding-bottom: 1rem;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+// Video
+
+section .video-background {
+	@include sectionblock(50vh, $primary-color);
+
+	.title-padding {
+		padding-top: 3rem;
+	}
+}
