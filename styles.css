@@ -157,11 +157,6 @@ section .about-background .split h3 {
   padding-bottom: 1rem;
 }
 
-html {
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
-}
-
 @media (min-width: 768px) {
   .sticky {
     display: -webkit-box;
@@ -262,5 +257,10 @@ html {
   .split {
     margin-top: 5rem;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
